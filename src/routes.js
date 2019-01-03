@@ -59,7 +59,7 @@ export default () => (
             <Private exact path="/admin" component={Admin} />
             <Private exact path="/dashboard" component={Dashboard} />
             <Private exact path="/schedules" component={Schedules} />
-            <Redirect exact path="*" to="/login" />
+            <Redirect exact path="*" to="/dashboard" />
         </Switch>
     </Router>
 );
